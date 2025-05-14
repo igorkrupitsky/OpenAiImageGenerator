@@ -1,6 +1,6 @@
 This an AI Image Editor that uses OpenAI dall-e-2 API. It allows replace some areas of a pre-existing image based on a text prompt.
 
-Originally posted here:
+Originally posted here: 
 <https://www.codeproject.com/Articles/5385564/OpenAI-Image-Editor/>
 
 ### Introduction
@@ -8,11 +8,11 @@ This application is my attempt to create a smallest client app to edit images us
 
 The image has to be a square PNG file with three  sizes: 256x256, 512x512, or 1024x1024.  The application will convert your image tile to this format and size using ResizeImage() function.
 
-![](https://github.com/igorkrupitsky/OpenAiImageGenerator/blob/main/image_gen-r-700.png?raw=true)
+![](img/image_gen-r-700.png)
 
 Next the app will let you create a mask file by drawing shapes (ploygons) on top of the uploaded image.
 
-![](https://github.com/igorkrupitsky/OpenAiImageGenerator/blob/main/image_gen2-r-700.png?raw=true)
+![](img/image_gen2-r-700.png)
 
 After typing the prompt click Generate button to have the output file created.
 
